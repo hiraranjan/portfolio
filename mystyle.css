@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(141, 80, 116);
+    height: 150vh;
+}
+.clearfix{clear: both;}
+
+.resume-box{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+.box-outer{
+    padding: 30px;
+}
+.box-1{
+    background-color: grey;
+    width: 35%;
+    float: left;
+    height: 800px;
+}
+.box-2{
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+.profile{
+    width: 100%;
+}
+.content{
+    padding: 20px;
+}
+h1{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+p{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#progress1{
+    background-color:black;
+    border-radius: 13px;
+    height: 8px;
+    width: 100px;
+    padding: 3px;
+}
+#progress1:after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 40px;
+}
+#progress2{
+    background-color:black;
+    border-radius: 13px;
+    height: 8px;
+    width: 100px;
+    padding: 3px;
+}
+#progress2:after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 80px;
+}
+#progress3{
+    background-color:black;
+    border-radius: 13px;
+    height: 8px;
+    width: 100px;
+    padding: 3px;
+}
+#progress3:after{
+    content: '';
+    display: block;
+    background-color: orange;
+    border-radius: 9px;
+    height: 8px;
+    width: 70px;
+}
+.intro{text-align: center;}
+.intro h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:blue;
+}
+.hr{
+    height: 15px;
+    border: none;
+    background-color: yellow;
+    margin: -45px 20px;
+}
+.intro-p{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 13%! important;
+}
+.intro p{
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: -5px;
+}
+.head{
+    color: cyan;
+}
+.table{
+    width: 1000px;
+}
+.table,th,td{
+    border: 2px solid black;
+    padding: 25px;
+    border-collapse: collapse;
+}
